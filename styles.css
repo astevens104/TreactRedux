@@ -51,6 +51,7 @@ NAV
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 32px 0;
 }
 
 .nav__container {
@@ -58,6 +59,12 @@ NAV
     justify-content: space-between;
     align-items: center;
 }
+
+.landing__para {
+    padding: 16px 0;
+}
+
+
 .nav__logo--container {
     display: flex;
     align-items: center;
@@ -118,6 +125,67 @@ NAV
 
 .sign-up:hover {
     background-color: #522d80;
+}
+
+/* 
+
+LANDING 
+
+*/
+
+.landing__container {
+    display: flex;
+    padding: 0 24px;
+}
+
+.landing__info {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    align-items: center;
+}
+
+.logostrip__wrapper {
+    display: flex;
+}
+
+.logostrip__img {
+    width: 100%;
+}
+
+.get-started__wrapper {
+    border: solid;
+    border-color: #77889983;
+    border-width: 1px;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 325px;
+}
+
+.email__entry {
+    padding: 8px;
+    color: #77889983;
+    border-color: #77889983;
+    border-radius: 25px;
+    margin: 8px;
+}
+
+.get-started__btn {
+    background-color: rgb(100 21 255);
+    color: white;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 25px;
+    padding: 8px 16px;
+    
+}
+
+.landing__img--wrapper {
+    padding-left: 32px;
+}
+
+.landing__img {
+    width: 100%;
 }
 
 /* 
