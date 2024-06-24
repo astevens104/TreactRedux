@@ -13,6 +13,74 @@ a {
     font-size: 12px;
 }
 
+li {
+    list-style-type: none;
+}
+
+/* 
+
+NAV 
+
+*/
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__logo--container {
+    display: flex;
+    align-items: center;
+    margin: 0 24px;
+}
+
+.logo__img {
+    width: 50px;
+}
+
+.nav-text__wrapper {
+    padding-left: 16px;
+}
+
+.links__button--container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-link {
+    color: #252525;
+    text-decoration: none;
+    margin-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    
+}
+
+.login {
+    padding: 16px;
+    
+}
+
+.sign-up {
+    background-color: rgb(100 21 255);
+    color: white;
+    font-size: 16px;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 16px;
+}
+
 
 /* FOOTER */
 
