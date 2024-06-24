@@ -67,18 +67,33 @@ NAV
     
 }
 
+.nav-link:hover {
+    color: rgb(100 21 255);
+    text-decoration: underline;
+    transition: 300ms;
+}
+
 .login {
-    padding: 16px;
+    padding:  0 32px;
     
+}
+
+.button__wrapper {
+    margin-right: 24px;
 }
 
 .sign-up {
     background-color: rgb(100 21 255);
     color: white;
     font-size: 16px;
+    font-weight: bold;
     padding: 8px 24px;
     border: none;
     border-radius: 16px;
+}
+
+.sign-up:hover {
+    background-color: #522d80;
 }
 
 
@@ -119,6 +134,12 @@ footer {
 
 .category {
     padding: 4px;
+}
+
+.category:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    transition: 200ms;
 }
 
 .footer__info--container {
