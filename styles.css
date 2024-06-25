@@ -22,6 +22,20 @@ p {
     line-height: 1.5;
 }
 
+button {
+    background-color: rgb(100 21 255);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 16px;
+}
+
+button:hover {
+    background-color: #522d80;
+}
+
 .purple {
     color: rgb(100 21 255);
 }
@@ -52,7 +66,7 @@ NAV
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 32px 0;
+    padding: 32px;
 }
 
 .nav__container {
@@ -112,20 +126,6 @@ NAV
 
 .button__wrapper {
     margin-right: 24px;
-}
-
-.sign-up {
-    background-color: rgb(100 21 255);
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 8px 24px;
-    border: none;
-    border-radius: 16px;
-}
-
-.sign-up:hover {
-    background-color: #522d80;
 }
 
 /* 
@@ -254,6 +254,23 @@ FEATURES
 .service__para {
     line-height: 2;
     font-weight: bold;
+}
+
+/* 
+
+QUALITY 
+
+*/
+
+.quality__container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn__container {
+    max-width: 160px;
+    padding: 16px 0;
 }
 
 /* 
