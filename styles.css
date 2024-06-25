@@ -262,6 +262,10 @@ QUALITY
 
 */
 
+.quality-work__container {
+   display: flex; 
+}
+
 .quality__container {
     width: 50%;
     display: flex;
@@ -271,6 +275,122 @@ QUALITY
 .btn__container {
     max-width: 160px;
     padding: 16px 0;
+}
+
+.quality__img--container {
+    width: 50%;
+}
+
+.quality__img {
+    width: 100%;
+}
+
+/* 
+
+STEPS 
+
+*/
+
+.steps__container {
+    display: flex;
+}
+
+.steps__img--container {
+    width: 50%;
+    padding: 32px 16px 0 16px;
+}
+
+.steps__img {
+    width: 100%;
+}
+
+.steps__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+}
+
+.step {
+    display: flex;
+}
+
+.step__number {
+    padding: 8px 8px 8px 0;
+    color: rgb(203 213 224);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.step__number--title {
+    color: #252525;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 8px 0;
+}
+
+.step__instructions {
+    width: 60%;
+    padding: 0 16px;
+}
+
+/* 
+
+VALUES 
+
+*/
+
+.values__container {
+    display: flex;
+}
+
+.values__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.values__para {
+    padding: 16px 0;
+}
+
+.values__qualities {
+    display: flex;
+}
+
+.quality__container {
+    width: 75%;
+}
+
+.quality__heading {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.dollar-sign__icon {
+    padding: 8px 13px;
+    background-color: #addfad;
+    color: #006400;
+    border-radius: 25px;
+}
+
+.briefcase__icon {
+    padding: 8px 10px;
+    background-color: #f88479a6;
+    color: #800000;
+    border-radius: 25px;
+}
+
+.quality__name {
+    padding: 0 16px;
+    color: rgb(36 62 99);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.quality__description {
+    color: #778899;
 }
 
 /* 
