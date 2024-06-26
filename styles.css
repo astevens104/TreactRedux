@@ -395,6 +395,111 @@ VALUES
 
 /* 
 
+PRICING 
+
+*/
+
+.pricing__container {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pricing__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__para {
+    width: 50%;
+    padding: 16px;
+}
+
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plan {
+    width: calc(94% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 0 48px;
+    background-color: lime;
+}
+
+.individual__gradient {
+    height: 8px;
+    width: 100%;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.enterprise__gradient {
+    height: 8px;
+    width: 100%;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.plan__sub-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 48px;
+}
+
+.business__plan {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    border-radius: 8px;
+    padding: 0 24px;
+}
+
+.plan__name {
+    padding: 24px 0 8px 0;
+    font-size: 24px;
+}
+
+.plan__cost {
+    padding: 8px 0;
+    font-size: 48px;
+}
+
+.plan__type {
+    font-weight: bold;
+}
+
+.target__demographic {
+    padding: 16px 0;
+    font-size: 20px;
+    color: #252525;
+}
+
+.feature {
+    padding: 8px 0;
+    color: #536878;
+    font-weight: bold;
+}
+
+.pricing__button--wrapper {
+    padding: 16px 0;
+}
+
+.personal__buy-now {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    color: white;
+}
+
+.business__buy-now {
+    background: white;
+    color: #522d80;
+}
+
+/* 
+
 TESTIMONIALS 
 
 */
