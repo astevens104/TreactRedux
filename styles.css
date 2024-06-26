@@ -32,10 +32,6 @@ button {
     border-radius: 16px;
 }
 
-button:hover {
-    background-color: #522d80;
-}
-
 .purple {
     color: rgb(100 21 255);
 }
@@ -126,6 +122,10 @@ NAV
 
 .button__wrapper {
     margin-right: 24px;
+}
+
+.non-pricing__btn:hover {
+    background-color: #522d80;
 }
 
 /* 
@@ -421,12 +421,12 @@ PRICING
 }
 
 .plan {
-    width: calc(94% / 3);
+    width: calc(100% / 3);
+    max-width: 310px;
     display: flex;
     flex-direction: column;
-    align-items: center;    
-    padding: 0 48px;
-    background-color: lime;
+    align-items: center;
+    margin-right: 16px;
 }
 
 .individual__gradient {
@@ -435,6 +435,7 @@ PRICING
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
+    position: relative;
 }
 
 .enterprise__gradient {
@@ -449,13 +450,39 @@ PRICING
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 0 48px;
+    color: white;
+}
+
+.plan__sub-container--individual {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 8px;
+    border-color: #7788998c;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.plan__sub-container--enterprise {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 8px;
+    border-color: #7788998c;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .business__plan {
     background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
     border-radius: 8px;
-    padding: 0 24px;
+    padding: 8px 24px;
 }
 
 .plan__name {
@@ -472,10 +499,19 @@ PRICING
     font-weight: bold;
 }
 
+.plan__type--business {
+    font-weight: bold;
+    color: white;
+}
+
 .target__demographic {
     padding: 16px 0;
     font-size: 20px;
     color: #252525;
+}
+
+.target__demographic--business {
+    color: white;
 }
 
 .feature {
@@ -484,18 +520,37 @@ PRICING
     font-weight: bold;
 }
 
-.pricing__button--wrapper {
-    padding: 16px 0;
+.feature__business {
+    color: white;
 }
 
-.personal__buy-now {
+.pricing__button--wrapper {
+    padding: 32px 0;
+}
+
+.pricing__btn {
+    padding: 16px 48px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.pricing__btn:hover {
+    cursor: pointer;
+    transform: translateY(-2);
+}
+
+.pricing__btn--personal {
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
     color: white;
 }
 
-.business__buy-now {
+.pricing__btn--business {
     background: white;
     color: #522d80;
+}   
+
+.pricing__btn--enterprise {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
 /* 
@@ -505,7 +560,7 @@ TESTIMONIALS
 */
 
 .testimonial__img--wrapper {
-    padding: 0 24px;
+    padding: 0 8px;
     
 }
 
@@ -521,6 +576,7 @@ TESTIMONIALS
 
 .testimonial__description {
     width: 100%;
+    padding: 0 16px;
 }
 
 .ratings__container {
