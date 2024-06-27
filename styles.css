@@ -149,6 +149,10 @@ NAV
     display: none;
 }
 
+.btn__menu:hover {
+    cursor: pointer;
+}
+
 .menu__backdrop {
     position: absolute;
     background-color: #252525;
@@ -234,6 +238,7 @@ LANDING
 
 .landing__container {
     display: flex;
+    align-items: center;
     padding: 0 24px;
 }
 
@@ -241,7 +246,14 @@ LANDING
     display: flex;
     flex-direction: column;
     max-width: 40%;
-    align-items: center;
+    justify-content: left;
+}
+
+.logostrip__heading {
+    padding: 8px;
+    color: #536878;
+    justify-content: left;
+
 }
 
 .logostrip__wrapper {
@@ -253,12 +265,8 @@ LANDING
 }
 
 .get-started__wrapper {
-    border: solid;
-    border-color: #77889983;
-    border-width: 1px;
-    border-radius: 25px;
-    width: 100%;
-    max-width: 325px;
+    display: flex;
+    
 }
 
 .email__entry {
@@ -267,6 +275,12 @@ LANDING
     border-color: #77889983;
     border-radius: 25px;
     margin: 8px;
+    width: 50%;
+    font-size: 16px;
+}
+
+.email__entry:hover {
+    color: #536878;
 }
 
 .get-started__btn {
@@ -275,7 +289,7 @@ LANDING
     font-size: 16px;
     border-style: none;
     border-radius: 25px;
-    padding: 8px 16px;
+    padding: 0 32px;
 }
 
 .get-started__btn:hover {
@@ -844,7 +858,29 @@ RESPONSIVENESS
     .plan {
         width: 100%;
     }
+
+    .link {
+        width: 50%;
+    }
     
-}   
+}
+
+@media (max-width: 525px) {
+    .landing__container {
+        padding: 0 16px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .link {
+        width: 100;
+    }
+}
 
     

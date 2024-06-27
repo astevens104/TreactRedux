@@ -24,7 +24,7 @@
                 <ul class="nav-links">
                     <li><a href="#" class="nav-link">About</a></li>
                     <li><a href="https://treact.owaiskhan.me/#" class="nav-link">Blog</a></li>
-                    <li><a href="#" class="nav-link">Pricing</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
                     <li><a href="#" class="nav-link">Contact Us</a></li>
                     <li><a href="#" class="nav-link login">Login</a></li>
                 </ul>
@@ -42,7 +42,7 @@
                 <ul class="menu__links">
                     <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Home</a></li>
                     <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Blog</a></li>
-                    <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Pricing</a></li>
+                    <li class="menu__list"><a href="#pricing" class="menu__link" onclick="closeMenu()">Pricing</a></li>
                     <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Contact Us</a></li>
                     <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Login</a></li>
                 </ul>
@@ -62,12 +62,10 @@
                 <div class="landing__info">
                     <h1 class="sub-title">Beautiful React Templates <span class="purple">For You</span></h1>
                     <p class="landing__para">Our templates are easy to setup, understand, and customize. Fully modular components with a variety of pages and widgets.</p>
-                    <div class="get-started__wrapper">
-                        <input class="email__entry" type="text" placeholder="Your E-Mail Address">
-                        <button class="non-pricing__btn">
-                            Get Started
-                        </button>
-                    </div>
+                    <form class="get-started__wrapper">
+                        <input type="email" class="email__entry" type="text" placeholder="Your E-Mail Address">
+                        <button type="submit" class="get-started__btn">Get Started</button>
+                    </form>
                     <h6 class="logostrip__heading">OUR TRUSTED CUSTOMERS</h6>
                     <figure class="logostrip__wrapper">
                         <img class="logostrip__img" src="./treact_assets/logostrip.png" alt="">
@@ -398,7 +396,7 @@
             <div class="footer__info--container">
                 <div class="footer__logo--container">
                     <figure class="footer__img--wrapper">
-                        <img class="footer__img" src="./treact_assets/logo.svg" alt="">
+                        <img class="footer__img" src="./treact_assets/logo-light.svg" alt="">
                     </figure>
                     <h4 class="logo__text">Treact Inc.</h4>
                 </div>
