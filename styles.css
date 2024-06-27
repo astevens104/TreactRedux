@@ -266,6 +266,7 @@ LANDING
 
 .get-started__wrapper {
     display: flex;
+    position: relative;
     
 }
 
@@ -274,9 +275,10 @@ LANDING
     color: #77889983;
     border-color: #77889983;
     border-radius: 25px;
-    margin: 8px;
-    width: 50%;
-    font-size: 16px;
+    margin: 16px 0;
+    width: 90%;
+    font-size: 20px;
+    position: relative;
 }
 
 .email__entry:hover {
@@ -289,7 +291,9 @@ LANDING
     font-size: 16px;
     border-style: none;
     border-radius: 25px;
-    padding: 0 32px;
+    position: absolute;
+    left: 245px;
+    top: 20px;
 }
 
 .get-started__btn:hover {
