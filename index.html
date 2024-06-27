@@ -6,7 +6,7 @@
     <title>Treact Home Page</title>
     <link rel="stylesheet" href="./styles.css">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-
+    <script src="index.js"></script>
 </head>
 
 <header>
@@ -16,21 +16,39 @@
                 <figure class="logo__img--container">
                     <img class="logo__img" src="./treact_assets/nav_logo.svg" alt="">
                 </figure>
-                <div class="nav-text__wrapper">
+                <div class="nav-text">
                     <h4>Treact</h4>
                 </div>
             </div>
             <div class="links__button--container">
                 <ul class="nav-links">
                     <li><a href="#" class="nav-link">About</a></li>
-                    <li><a href="#" class="nav-link">Blog</a></li>
+                    <li><a href="https://treact.owaiskhan.me/#" class="nav-link">Blog</a></li>
                     <li><a href="#" class="nav-link">Pricing</a></li>
                     <li><a href="#" class="nav-link">Contact Us</a></li>
                     <li><a href="#" class="nav-link login">Login</a></li>
                 </ul>
                 <div class="button__wrapper">
                 <button class="non-pricing__btn">Sign Up</button>
-                </div>
+                </div>   
+            </div>        
+            <button class="btn__menu" onclick="openMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="menu__backdrop">
+                <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="menu__links">
+                    <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Home</a></li>
+                    <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Blog</a></li>
+                    <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Pricing</a></li>
+                    <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Contact Us</a></li>
+                    <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Login</a></li>
+                </ul>
+                <div class="button__wrapper--backdrop">
+                    <button class="menu__btn menu__link" onclick="closeMenu()">Sign Up</button>
+                </div>    
             </div>
         </div>
     </div>
